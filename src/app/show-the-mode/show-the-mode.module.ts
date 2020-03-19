@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { IonicModule } from "@ionic/angular";
 
 import { ShowTheModeComponent } from './show-the-mode.component';
 
@@ -7,7 +8,8 @@ import { ShowTheModeComponent } from './show-the-mode.component';
   declarations: [ShowTheModeComponent],
   exports: [ShowTheModeComponent],
   imports: [
-    CommonModule
+    CommonModule,
+    IonicModule
   ]
 })
 export class ShowTheModeModule { }
